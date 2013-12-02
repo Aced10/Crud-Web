@@ -1,0 +1,68 @@
+body {
+	background-image: url(aaa.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Helvetica", Arial;
+}
+
+#Contenido {
+	background-color:#FFF;
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	border-radius:50px;
+	padding: 5px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+}
+
+#Info{
+	background-color: #1d1d1d;
+	color: #FFF;
+	margin: 0px;
+	text-align: left;
+	border-radius:50px;
+	padding: 20px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0.5); 
+}
+
+#Opciones{
+	background-color:#FFF;
+	width: 400px;
+	margin: 5px;
+	text-align: left;
+	border-radius:50px;
+	padding: 5px;
+	box-shadow:0px 0px 0px rgba(0,0,0,0.5);
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 0px;
+	color:#1d1d1d;
+	cursor:pointer;
+	padding: 5px;
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+nav ul li a{
+	text-decoration: none;
+}
+
+div aside p a{
+	text-decoration: none;
+}
+
+h3 {
+	color: #CD853F;
+}
+h5 {
+	color: #F5F5F5;
+}
+a{
+	color: #CD853F;
+}
+
